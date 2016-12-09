@@ -1,0 +1,19 @@
+{
+  "name": "pagespeed-assistant-webhook",
+  "version": "1.0.0",
+  "description": "",
+  "engines" : { "node" : "6.9.0" },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "actions-on-google": "^1.0.2",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
